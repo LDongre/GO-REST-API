@@ -1,0 +1,5 @@
+go run main.go
+go get -u github.com/go-sql-driver/mysql
+curl -i -X POST localhost:3000/ping
+mysql service restart
+mysql -u root -p"12345"
